@@ -1,0 +1,44 @@
+*{
+    font-family: 'Bree Serif', serif;
+}
+.cont{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    grid-template-areas: 
+    'grades score credit';
+}
+.grades{
+    grid-area: grades;
+    margin: 0px 25px;
+}
+.score{
+    grid-area: score;
+    margin: 0px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.score input{
+    margin: 5px 0px;
+}
+.credit{
+    grid-area: credit;
+    margin: 0px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.credit input{
+    margin: 5px 0px;
+}
+
+#para{
+    width: 500px;
+    text-align: center;
+    margin: -17px auto;
+}
+#btn{
+    width: 115px;
+    margin: 30px auto;
+    display: block;
+}

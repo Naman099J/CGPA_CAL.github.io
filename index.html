@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="Form.js"></script>
+    <link rel="stylesheet" href="Form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cont">
+        <div class="grades">
+            <p>A+ = 10</p>
+            <p>A = 9</p>
+            <p>B+ = 8</p>
+            <p>B = 7</p>
+            <p>C+ = 6</p>
+            <P>C = 5</P>
+        </div>
+        <div class="score">
+            <p>Enter your grade points</p>
+            <input type="number" name="" id="g1" placeholder="0">
+            <input type="number" name="" id="g2" placeholder="0">
+            <input type="number" name="" id="g3" placeholder="0">
+            <input type="number" name="" id="g4" placeholder="0">
+            <input type="number" name="" id="g5" placeholder="0">
+            <input type="number" name="" id="g6" placeholder="0">
+        </div>
+        <div class="credit">
+            <p>Enter credit of subject</p>
+            <input type="number" name="" id="c1" placeholder="0">
+            <input type="number" name="" id="c2" placeholder="0">
+            <input type="number" name="" id="c3" placeholder="0">
+            <input type="number" name="" id="c4" placeholder="0">
+            <input type="number" name="" id="c5" placeholder="0">
+            <input type="number" name="" id="c6" placeholder="0">
+        </div>
+    </div>
+    <button id="btn" onclick="cal()">Submit Now</button>
+    <p id="para">Score : <span id="result"> 00.00 </span> CGPA</p>
+</body>
+</html>
